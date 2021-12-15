@@ -1,0 +1,50 @@
+{
+  "name": "bestcontain",
+  "version": "1.0.0",
+  "description": "1. run `npm install` to install all of the dependencies 2. in order to run this project properly you need to run Next.js development server and Node API server at the same time 3. to run Next.js application run `npm run dev` and open browser at localhost:3000 4. to run Node API server run `npm run server` in new terminal window(servers has to run at the same time), it will run server at localhost:3001 5. create `.env` file in root folder with values of:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "server": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@types/dotenv": "^8.2.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.1.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "netlify": "^8.0.3",
+    "netlify-identity-widget": "^1.9.2",
+    "next": "^11.1.2",
+    "next-images": "^1.8.1",
+    "nodemailer": "^6.6.5",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.14.0",
+    "react-hook-form": "^5.7.2",
+    "restful-react": "^13.0.0",
+    "sass": "^1.26.8"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeel-koradiya/BestContent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeel-koradiya/BestContent/issues"
+  },
+  "homepage": "https://github.com/jeel-koradiya/BestContent#readme"
+  
+}
